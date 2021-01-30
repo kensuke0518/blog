@@ -1,5 +1,5 @@
 module.exports = {
-    exportPathMap: function () {
+    exportPathMap: function () { //ルーティング設定
         return {
             '/': { page: '/' },
             '/other': { page: '/other.js' }
